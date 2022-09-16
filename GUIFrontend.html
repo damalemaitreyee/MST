@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="mstAlgo.js"></script>
+</head>
+<body>
+<form name="Mstalgo">
+  <label for="Algorithm">Choose an Algorithm:</label><br>
+  <select id="Algorithm" name="Algorithm">
+    <option value="">Select Algorithm</option>
+    <option value="prims">Prims</option>
+    <option value="kruskal">Kruskal</option>
+    <option value="both">Both</option>
+  </select><br>
+  <label for="nodes">Enter the number of nodes:</label><br>
+  <input type="text" id="nodes" name="nodes" size="50"><br>
+  <input type="submit" value="Submit" onclick="return select_algorithm()">
+</form>
+</body>
+</html>
